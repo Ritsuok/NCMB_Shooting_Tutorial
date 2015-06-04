@@ -57,6 +57,12 @@ namespace NCMB
 				}
 			});
 		}
+
+		// ランキングで表示するために文字列を整形 -----------
+		public string print()
+		{
+			return name + ' ' + score;
+		}
 		
 	}
 } 
